@@ -1,3 +1,8 @@
 spring:
     application:
         name: Train Station
+    datasource:
+        url: jdbc:mysql://localhost:3306/train_station
+        username: root
+        password:
+        driver-class-name: com.mysql.cj.jdbc.Driver
